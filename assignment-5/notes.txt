@@ -1,0 +1,10 @@
+Techstack
+- AzureSQL for Database
+- "NodeJS" for backend programming with "Express" as framework
+- App hosted using Azure app services at https://a00211548-contacts.azurewebsites.net/
+- API end points
+    - https://a00211548-contacts.azurewebsites.net/api (GET - get all contacts, POST - create new contact)
+    - https://a00211548-contacts.azurewebsites.net/api/{contact_id} (GET - find contact by id, PUT - update contact by id, DELETE - delete contact by id)
+- App is built using NativeScript, a cross platform tool to build apps for iOS & Android
+
+vi /etc/apache2/apache2.conf
